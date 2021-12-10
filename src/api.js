@@ -1,6 +1,5 @@
 export const getWeather = async (unit) => {
-    const city = "Göteborg";
-    // const city = "London";
+    const city = "Terre Haute";
     const key = process.env.REACT_APP_AUTH_TOKEN;
     console.log(key)
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=${unit}&appid=${key}`;
@@ -29,7 +28,7 @@ const format = (data) => ({
 });
 
 export const getRandomQuote = async () => {
-    const response = await fetch("https://api.quotable.io/random");
+    const response = await fetch("https://api.quotable.io/random?tags=technology|famous-quotes|inspirational");
     const data = await response.json();
     return data;
 };

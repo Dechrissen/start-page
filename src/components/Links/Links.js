@@ -3,38 +3,29 @@ import { Wrapper, Container, Heading, Link } from "./Links.style.js";
 const Links = () => {
     return (
         <Wrapper>
+        
             <Container>
-                <Heading color="blue">~/uni</Heading>
-                <Link href="https://chalmers.instructure.com/courses/15898">
-                    linalg
-                </Link>
-                <Link href="https://chalmers.instructure.com/courses/16011">
-                    grudat
-                </Link>
-                <Link href="https://calendar.google.com">calendar</Link>
-                <Link href="https://gmail.com">gmail</Link>
-                <Link href="https://drive.google.com/drive/u/0/folders/1zKyJSIlqU5ad7IGzLdo3FEOCVBxtKJ2g">
-                    drive
-                </Link>
+                <Heading color="red">mail</Heading>
+                <Link href="https://mail.google.com/mail/u/0/#inbox">gmail</Link>
+                <Link href="https://mail.zoho.com/zm/#mail/folder/inbox">zoho mail</Link>
+                
             </Container>
 
-            <Container>
-                <Heading color="purple">~/dev</Heading>
-                <Link href="https://github.com/">github</Link>
-                <Link href="https://gitlab.com/R-Jin">gitlab</Link>
-                <Link href="https://stackoverflow.com/">stackoverflow</Link>
-                <Link href="https://wiki.archlinux.org/">archwiki</Link>
-                <Link href="https://www.figma.com">figma</Link>
-            </Container>
-
-            <Container>
-                <Heading color="green">~/fun</Heading>
+			<Container>
+                <Heading color="blue">social</Heading>
                 <Link href="https://www.youtube.com">youtube</Link>
-                <Link href="https://odysee.com/">odysee</Link>
-                <Link href="https://monkeytype.com/">monkeytype</Link>
-                <Link href="https://play.typeracer.com/">typeracer</Link>
+                <Link href="https://www.twitch.tv/">twitch</Link>
                 <Link href="https://www.reddit.com/">reddit</Link>
             </Container>
+
+            <Container>
+                <Heading color="green">etc</Heading>
+                <Link href="https://github.com/">github</Link>
+                <Link href="https://derekandersen.net">personal site</Link>
+                <Link href="https://wiki.archlinux.org/">arch wiki</Link>
+            </Container>
+
+            
         </Wrapper>
     );
 };

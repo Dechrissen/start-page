@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const H1 = styled.div`
     font-size: var(--fontVeryBig);
     font-weight: bold;
-    color: #e06c75;
+    color: var(--yellow);
     margin: 0;
 `;
 
